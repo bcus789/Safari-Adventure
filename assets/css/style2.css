@@ -1,0 +1,33 @@
+body {
+  background-image: url("../images/jungle.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.card-title {
+  font-family: fantasy;
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+.row {
+  color: antiquewhite;
+  text-align: center;
+  margin: 30px;
+}
+
+a {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 3px;
+}
+#animal{
+  text-align: center;
+  color: rgb(63, 7, 7);
+  background-color: antiquewhite;
+}
+h5 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 3px;
+}

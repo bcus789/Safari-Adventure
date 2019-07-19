@@ -1,0 +1,35 @@
+#sexPage {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+body {
+  background-image: url("../images/jungle.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+}
+h5 {
+  color: rgba(0, 66, 33, 0.836);
+}
+.card {
+  margin: 30px;
+}
+
+.card-title {
+  font-size: 60px;
+}
+.card-title {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 3px;
+}
+.btn-lg {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 3px;
+}
+a {
+  margin-top: 10px;
+}

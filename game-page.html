@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Name that Mating Call!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src=".\assets\javascript\app.js"></script>
+</head>
+
+<body>
+    <div class="container" id="sexPage">
+        <div id="sexTitle">
+      <h1></h1>
+        </div>
+        <div class="card text-center p-3 mb-2 bg-muted text-white">
+            <div class="card-header p-3 mb-2 bg-dark text-white"></div>
+            <div class="card-body p-3 mb-2 bg-secondary text-white">
+              <h5 class="card-title">The bus leaves in <span id="time" style="color:rgb(116, 11, 32)">00:40</span> seconds!</h5>
+              <p class="card-text" id="time-left"></p>
+            </div>
+            <div class="card-footer text-muted p-3 mb-2 bg-dark text-white"></div>
+        </div>
+    
+    <div class="container"id="quiz">
+        <div class="row">
+          <div class="col">
+            <a href="#" onmousedown="" class="btn-lg btn-info" id="chipmunk">in the tree!</a>
+          </div> 
+      </div>
+    <form id="quiz" name="quiz" onsubmit="return onSubmit()">
+      <div class="row">
+          <div class="col">
+              <label class="radio-inline"><input type="radio" name="q1" value="a">turtle</label>
+              <label class="radio-inline"><input type="radio" name="q1" value="b">wolf</label>
+              <label class="radio-inline"><input type="radio" name="q1" value="c">chipmunk</label>
+              <label class="radio-inline"><input type="radio" name="q1" value="d">musk-ox</label>
+          </div> 
+      </div>
+      <div class="row">
+          <div class="col">
+            <a href="#" onmousedown="" class="btn-lg btn-info" id="stag">next to the rock!</a>
+          </div> 
+      </div>
+      <div class="row">
+          <div class="col">
+              <label class="radio-inline"><input type="radio" name="q2" value="a">ferret</label>
+              <label class="radio-inline"><input type="radio" name="q2" value="b">chamois</label>
+              <label class="radio-inline"><input type="radio" name="q2" value="c">Red Stag</label>
+              <label class="radio-inline"><input type="radio" name="q2" value="d">kangaroo</label>
+          </div> 
+      </div>
+      <div class="row">
+          <div class="col">
+            <a href="#" onmousedown="" class="btn-lg btn-info"id="turkey">behind the bush!</a>
+          </div> 
+      </div>
+      <div class="row">
+          <div class="col">
+              <label class="radio-inline"><input type="radio" name="q3" value="a">marmoset</label>
+              <label class="radio-inline"><input type="radio" name="q3" value="b">oryx</label>
+              <label class="radio-inline"><input type="radio" name="q3" value="c">bumble bee</label>
+              <label class="radio-inline"><input type="radio" name="q3" value="d">turkey</label>
+          </div> 
+      </div>
+      <div class="row">
+          <div class="col">
+            <a href="#" class="btn-lg btn-info" id="turkey2">across the stream!</a>
+          </div> 
+      </div>
+      <div class="row">
+          <div class="col">
+              <label class="radio-inline"><input type="radio" name="q4" value="a">zebu</label>
+              <label class="radio-inline"><input type="radio" name="q4" value="b">also turkey</label>
+              <label class="radio-inline"><input type="radio" name="q4" value="c">hedgehog</label>
+              <label class="radio-inline"><input type="radio" name="q4" value="d">orangutan</label>
+          </div> 
+      </div>
+      <div class="row">
+          <div class="col">
+            <a href="#" onmousedown="" class="btn-lg btn-info" id="alpaca">in the cave!</a>
+          </div> 
+      </div>
+      <div class="row">
+          <div class="col">
+              <label class="radio-inline"><input type="radio" name="q5" value="a">aardvark</label>
+              <label class="radio-inline"><input type="radio" name="q5" value="b">walrus</label>
+              <label class="radio-inline"><input type="radio" name="q5" value="c">alpaca</label>
+              <label class="radio-inline"><input type="radio" name="q5" value="d">ermine</label>
+          </div> 
+      </div>
+      <div class="row">
+          <div class="col">
+            <a href="#" onmousedown="" class="btn-lg btn-info" id="dinosaur">in the field!</a>
+          </div> 
+      </div>
+      <div class="row">
+          <div class="col">
+              <label class="radio-inline"><input type="radio" name="q6" value="a">dino</label>
+              <label class="radio-inline"><input type="radio" name="q6" value="b">canary</label>
+              <label class="radio-inline"><input type="radio" name="q6" value="c">shrew</label>
+              <label class="radio-inline"><input type="radio" name="q6" value="d">hyena</label>
+          </div> 
+      </div>
+      <div class="row">
+          <div class="col">
+            <a href="#" onmousedown="" class="btn-lg btn-info" id="guinea">in the wooded glen!</a>
+          </div> 
+      </div>
+      <div class="row">
+          <div class="col">
+              <label class="radio-inline"><input type="radio" name="q7" value="a">guinea pig</label>
+              <label class="radio-inline"><input type="radio" name="q7" value="b">yak</label>
+              <label class="radio-inline"><input type="radio" name="q7" value="c">springbok</label>
+              <label class="radio-inline"><input type="radio" name="q7" value="d">sheep</label>
+          </div> 
+      </div>
+      <div class="row">
+          <div class="col">
+            <a href="#" class="btn-lg btn-info" id="mystery">right behind you!</a>
+          </div> 
+      </div>
+      <div class="row">
+          <div class="col">
+              <label class="radio-inline"><input type="radio" name="q8"value="a">jerboa</label>
+              <label class="radio-inline"><input type="radio" name="q8"value="b">salamander</label>
+              <label class="radio-inline"><input type="radio" name="q8"value="c">mink</label>
+              <label class="radio-inline"><input type="radio" name="q8"value="d">???</label>
+          </div> 
+      </div>
+      <div class="row">
+          <div class="col">
+              <a href="end-game.html" type="submit" class="btn-lg btn-warning" id="submit" onclick="onSubmit()"; window.location.href='.end-game.html'">Back to the Jeep</a>
+          </div> 
+      </div>
+    </form>
+    </div>
+    </div>
+    
+    
+    
+</body>
+</html>
